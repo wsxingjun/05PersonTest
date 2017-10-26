@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.administrator.a05persontest.CalcTestActivity"></activity>
+
     </application>
 
 </manifest>
