@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         Intent intent = new Intent(this, CalcTestActivity.class);
+        //4.传递数据
+        intent.putExtra("name",name);
+        intent.putExtra("sexVal",sexVal);
         startActivity(intent);
     }
 
